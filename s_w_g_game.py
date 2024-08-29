@@ -13,23 +13,27 @@ if(computer==you):
     print("It's a draw")
 
 else:
-    if(computer==-1 and you==0):
+    if((computer-you)==0 or (computer-you)==-1):
         print("You win")
-
-    elif(computer==-1 and you==1):
-        print("Computer win")
-
-    elif(computer==0 and you==-1):
-        print("Computer win")
-
-    elif(computer==0 and you==1):
-        print("You win")
-
-    elif(computer==1 and you==0):
-        print("Computer win")
-
-    elif(computer==1 and you==-1):
-        print("You win")
-
     else:
-        print("Something went wrong")
+        print("You lose")
+    # if(computer==-1 and you==0):
+    #     print("You win")
+
+    # elif(computer==-1 and you==1):
+    #     print("Computer win")
+
+    # elif(computer==0 and you==-1):
+    #     print("Computer win")
+
+    # elif(computer==0 and you==1):
+    #     print("You win")
+
+    # elif(computer==1 and you==0):
+    #     print("Computer win")
+
+    # elif(computer==1 and you==-1):
+    #     print("You win")
+
+    # else:
+    #     print("Something went wrong")
